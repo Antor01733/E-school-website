@@ -1,0 +1,269 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    font-family:"Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 1.7em;
+
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Poppins", sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.header{
+    width:100%;
+    background-color:#F0FFF0;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 16px;
+    line-height: 1.7em;
+    margin: 0px 30px 0px 0px;
+    color: #000;
+    transition:1s;
+  
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #21B573;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:focus{
+    color: #21B573;
+
+}
+.header .btn-success{
+    padding:10px 25px;
+    border:1px solid #21B573;
+    color:#fff;
+    background:#21B573 ;
+    border-radius: 25px;
+    transition: 1s;
+}
+.header .btn-success:hover{
+    border:1px solid #21B573;
+    color:#21B573 ;
+    background:transparent;
+    border-radius: 25px;
+}
+
+.banner{
+    width:100%;
+    padding:50px 0px;
+}
+.banner h4{
+    font-size:16px ;
+    line-height: 1.3em;
+    font-weight: 400;
+
+}
+.banner h1{
+    font-size:48px ;
+    line-height: 1.3em;
+    font-weight: 700;
+    
+}
+.banner span{
+    color: #21B573;
+  
+}
+.banner .btn-success{
+    border:1px solid #21B573;
+    color:#fff;
+    background:#21B573 ;
+    border-radius: 25px;
+    transition: 1s;
+
+}
+.banner .btn-success:hover{
+    border:1px solid #21B573;
+    color:#21B573 ;
+    background:transparent;
+    border-radius: 25px;
+}
+
+.feature{
+    width:100%;
+    padding:50px 0px;
+}
+.feature .inner-feature{
+    width:100%;
+    padding:60px 40px;
+    border-radius: 15px;
+    text-align: center;
+}
+.feature .inner-feature:hover{
+    border-radius: 15px;
+   box-shadow:3px 2px 3px inset;
+}
+
+.feature .inner-feature .icons{
+    width:66px;
+    height:85px;
+    margin-bottom: 20px;
+
+    
+}
+.feature .inner-feature h5{
+    font-size:24px ;
+    line-height: 1.3em;
+    font-weight: 500;
+    color: #413960;
+    margin: 0px;
+    
+}
+
+.feature .inner-feature p{
+    font-size:16px ;
+    line-height: 1.7em;
+    color: #413960;
+    margin: 0px;
+      
+}
+
+.online-course{
+    width:100%;
+}
+
+.online-course h1{
+    text-align: center;
+    padding:50px 0px;
+}
+.online-course .inner-online-course{
+    width:100%;
+    border-radius: 15px;
+    
+
+}
+.online-course .inner-online-course:hover{
+    border:3px solid #0875F7;
+    border-radius: 15px;
+    
+}
+
+.online-course .inner-online-course .images{
+    width: 331px;
+    height: 234px;
+    margin:10px 15px;
+  
+}
+.online-course .inner-online-course h5{
+    font-size:24px ;
+    line-height: 1.3em;
+    font-weight: 500;
+    color:#413960;
+    margin:0px 10px;
+  
+}
+.online-course .inner-online-course p{
+    font-size:16px ;
+    line-height: 1.7em;
+    color: #413960;
+    margin:10px 15px;
+  
+}
+.online-course .inner-online-course .btn-success{
+    border:1px solid #21B573;
+    color:#fff;
+    background:#21B573 ;
+    border-radius: 25px;
+    transition: 1s; 
+    margin:10px 15px;
+}
+.online-course .inner-online-course .btn-success:hover{
+    border:1px solid #21B573;
+    color:#21B573 ;
+    background:transparent;
+    border-radius: 25px; 
+}
+.online-course .inner-online-course .people{
+    width:24px;
+    height:24px;
+    margin:20px 0px;
+    margin:10px 15px;  
+}
+
+.testimonial{
+    width:100%;
+    padding:80px 0px;
+    
+}
+.testimonial .col-lg-12{
+    width: 100%;
+
+}
+
+.testimonial h1{
+    font-size:48px;
+    line-height: 1.3em;
+    font-weight: 700;
+    text-align:center;
+    padding:60px 0px;
+    
+}
+
+.testimonial .col-lg-4{
+    text-align: right;
+   
+}
+
+
+
+.testimonial .client{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+ 
+}
+
+.testimonial .col-lg-8 p{
+    font-size:16px ;
+    line-height: 1.7em;
+    color: #413960;
+    margin:20px 0px 0px 0px
+    
+}
+
+.footer{
+    width:100%;
+    background: #282531;
+    padding: 50px 0px;
+
+}
+.footer p{
+    font-size:16px ;
+    line-height: 1.7em;
+    color: #fff;
+    margin:0px 0px 0px 30px;
+}
+.footer ul{
+    display: block;
+    
+}
+.footer ul li{
+    display:block;
+    list-style: none;
+    
+}
+.footer ul li a{
+    display:block;
+    font-size:16px ;
+    line-height: 1.7em;
+    color: #fff;
+   
+}
+
+.footer .all-right{
+    width:100%;
+    padding:50px 0px 0px 0px;
+    text-align: center;
+
+}
+
